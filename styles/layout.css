@@ -1,0 +1,111 @@
+@import './global.css';
+
+* {
+  font-family: var(--font);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+font-size: 62.5%;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  margin: 1rem 0rem 1rem 1rem;
+  padding-left: 3rem;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+li:hover {
+  background-color: var(--iconBg);
+}
+
+a {
+  text-decoration: none;
+  color: var(--lightFont);
+}
+
+span {
+  font-size: 1.6rem;
+  overflow: hidden;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--darkFont);
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 10rem;
+  height: 100%;
+  padding: 5.2rem 0rem;
+  background-color: var(--sidebar);
+  box-shadow: var(--shadow);
+  transition-property: width;
+  transition-duration: .5s;
+}
+
+.sideNav:hover {
+  width: 20rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 5.7rem;
+  padding: 1.5rem 0;
+}
+
+.item:hover {
+  color: var(--darkFont);
+  fill: var(--darkFont);
+}
+
+.line {
+  width: 50%;
+  border-bottom: 2px solid var(--lightFont);
+  text-align: center;
+}
+
+.line2 {
+  width: 30%;
+  margin: 1rem auto;
+  border-bottom: 1px solid var(--darkFont);
+}
+
+.fa {
+  margin-right: 3.2rem;
+  font-size: 3rem;
+  max-width: 3rem;
+}
+
+.fa.fa-cubes {
+  font-size: 2.5rem;
+}
+
+.fa.fa-gamepad {
+  font-size: 2.8rem;
+}
+
+.active {
+  background-color: var(--iconBg);
+  color: var(--darkFont);
+}
