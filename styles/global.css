@@ -1,0 +1,14 @@
+:root {
+  --background: #E5E5E5;
+  --sidebar:#F7F6FF;
+  --lightFont: #C4C4C4;
+  --darkFont: #02577A;
+  --iconBg: #FFFFFF;
+  --font: 'Montserrat', sans-serif;
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  background-color: var(--background);
+  height: 100vh;
+}
